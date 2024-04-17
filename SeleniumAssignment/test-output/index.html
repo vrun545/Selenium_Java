@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 14 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\varunbajpai\eclipse-workspace\SeleniumAssignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods, 14 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="anotherIntentionalFailure">anotherIntentionalFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="anotherIntentionalFailure">anotherIntentionalFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="anotherIntentionalFailure">anotherIntentionalFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="changePinCode">changePinCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkImagesOfProduct">checkImagesOfProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkLogin">checkLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkLogin">checkLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkLogin">checkLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkOutProduct">checkOutProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkOutProduct">checkOutProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkSignUp">checkSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkSignUp">checkSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkSignUp">checkSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="selectProduct">selectProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="changePinCode">changePinCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="changePinCode">changePinCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkCustomerServices">checkCustomerServices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkCustomerServices">checkCustomerServices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkCustomerServices">checkCustomerServices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkImagesOfProduct">checkImagesOfProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkImagesOfProduct">checkImagesOfProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkMyOrders">checkMyOrders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkMyOrders">checkMyOrders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkMyOrders">checkMyOrders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="checkOutProduct">checkOutProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="getAmazonSite">getAmazonSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="getAmazonSite">getAmazonSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="getAmazonSite">getAmazonSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="searchProduct">searchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="searchProduct">searchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="searchProduct">searchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="selectProduct">selectProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AmazonHomePage_Test" class="method navigator-link" hash-for-method="selectProduct">selectProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.AmazonHomePage_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="anotherIntentionalFailure">
+                  </a> <!-- anotherIntentionalFailure -->
+                  <span class="method-name">anotherIntentionalFailure</span>
+                  <div class="stack-trace">java.lang.AssertionError: Intentionally failing test case expected [true] but found [false]
+	at test.AmazonHomePage_Test.anotherIntentionalFailure(AmazonHomePage_Test.java:205)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="anotherIntentionalFailure">
+                  </a> <!-- anotherIntentionalFailure -->
+                  <span class="method-name">anotherIntentionalFailure</span>
+                  <div class="stack-trace">java.lang.AssertionError: Intentionally failing test case expected [true] but found [false]
+	at test.AmazonHomePage_Test.anotherIntentionalFailure(AmazonHomePage_Test.java:205)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="anotherIntentionalFailure">
+                  </a> <!-- anotherIntentionalFailure -->
+                  <span class="method-name">anotherIntentionalFailure</span>
+                  <div class="stack-trace">java.lang.AssertionError: Intentionally failing test case expected [true] but found [false]
+	at test.AmazonHomePage_Test.anotherIntentionalFailure(AmazonHomePage_Test.java:205)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePinCode">
+                  </a> <!-- changePinCode -->
+                  <span class="method-name">changePinCode</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: (//input[@class=&quot;GLUX_Full_Width a-declarative&quot;])
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [980101d6-8e72-4acc-9149-c26a9f9558ba, findElement {using=xpath, value=(//input[@class=&quot;GLUX_Full_Width a-declarative&quot;])}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.1, moz:accessibilityChecks: false, moz:buildID: 20240321230221, moz:debuggerAddress: 127.0.0.1:29271, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2264, moz:profile: C:\Users\VARUNB~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29271/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 980101d6-8e72-4acc-9149-c26a9f9558ba
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.sendKeys(Unknown Source)
+	at pages.AmazonChangePinCode.enter_PinCode(AmazonChangePinCode.java:36)
+	at test.AmazonHomePage_Test.changePinCode(AmazonHomePage_Test.java:166)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkImagesOfProduct">
+                  </a> <!-- checkImagesOfProduct -->
+                  <span class="method-name">checkImagesOfProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;a-autoid-3&quot;]/span/input&quot;}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2cca25aae0737c9aa433505e2705f7a4, findElement {using=xpath, value=//*[@id=&quot;a-autoid-3&quot;]/span/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\VARUNB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60571/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2cca25aae0737c9aa433505e2705f7a4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pages.AmazonCheckProuductImages.checkImage1(AmazonCheckProuductImages.java:30)
+	at test.AmazonHomePage_Test.checkImagesOfProduct(AmazonHomePage_Test.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLogin">
+                  </a> <!-- checkLogin -->
+                  <span class="method-name">checkLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: Wrong credentials entered expected [true] but found [false]
+	at test.AmazonHomePage_Test.checkLogin(AmazonHomePage_Test.java:183)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLogin">
+                  </a> <!-- checkLogin -->
+                  <span class="method-name">checkLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: Wrong credentials entered expected [true] but found [false]
+	at test.AmazonHomePage_Test.checkLogin(AmazonHomePage_Test.java:183)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLogin">
+                  </a> <!-- checkLogin -->
+                  <span class="method-name">checkLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: Wrong credentials entered expected [true] but found [false]
+	at test.AmazonHomePage_Test.checkLogin(AmazonHomePage_Test.java:183)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutProduct">
+                  </a> <!-- checkOutProduct -->
+                  <span class="method-name">checkOutProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;attach-sidesheet-checkout-button&quot;]/span/input&quot;}
+  (Session info: MicrosoftEdge=123.0.2420.65)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [290b45573d5f69731648348fc710b3d0, findElement {using=xpath, value=//*[@id=&quot;attach-sidesheet-checkout-button&quot;]/span/input}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.65, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60588}, msedge: {msedgedriverVersion: 123.0.2420.65 (49b6a5859239..., userDataDir: C:\Users\VARUNB~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60588/devtoo..., se:cdpVersion: 123.0.2420.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 290b45573d5f69731648348fc710b3d0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.sendKeys(Unknown Source)
+	at pages.AmazonCheckoutProduct.clickOnCheckOutButton(AmazonCheckoutProduct.java:23)
+	at test.AmazonHomePage_Test.checkOutProduct(AmazonHomePage_Test.java:136)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutProduct">
+                  </a> <!-- checkOutProduct -->
+                  <span class="method-name">checkOutProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;input class=&quot;a-button-input&quot; type=&quot;submit&quot;&gt; is not reachable by keyboard
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [980101d6-8e72-4acc-9149-c26a9f9558ba, sendKeysToElement {id=dca56de7-5725-4039-aad6-5fd7a690147d, value=[Ljava.lang.CharSequence;@210288cc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.1, moz:accessibilityChecks: false, moz:buildID: 20240321230221, moz:debuggerAddress: 127.0.0.1:29271, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2264, moz:profile: C:\Users\VARUNB~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29271/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (980101d6-8e72-4acc-9149-c26a9f9558ba)] -&gt; xpath: //*[@id=&quot;attach-sidesheet-checkout-button&quot;]/span/input]
+Session ID: 980101d6-8e72-4acc-9149-c26a9f9558ba
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.sendKeys(Unknown Source)
+	at pages.AmazonCheckoutProduct.clickOnCheckOutButton(AmazonCheckoutProduct.java:23)
+	at test.AmazonHomePage_Test.checkOutProduct(AmazonHomePage_Test.java:136)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSignUp">
+                  </a> <!-- checkSignUp -->
+                  <span class="method-name">checkSignUp</span>
+                  <div class="stack-trace">java.lang.AssertionError: Credentials entered but didn&apos;t proceed expected [true] but found [false]
+	at test.AmazonHomePage_Test.checkSignUp(AmazonHomePage_Test.java:199)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSignUp">
+                  </a> <!-- checkSignUp -->
+                  <span class="method-name">checkSignUp</span>
+                  <div class="stack-trace">java.lang.AssertionError: Credentials entered but didn&apos;t proceed expected [true] but found [false]
+	at test.AmazonHomePage_Test.checkSignUp(AmazonHomePage_Test.java:199)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSignUp">
+                  </a> <!-- checkSignUp -->
+                  <span class="method-name">checkSignUp</span>
+                  <div class="stack-trace">java.lang.AssertionError: Credentials entered but didn&apos;t proceed expected [true] but found [false]
+	at test.AmazonHomePage_Test.checkSignUp(AmazonHomePage_Test.java:199)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProduct">
+                  </a> <!-- selectProduct -->
+                  <span class="method-name">selectProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Apple iPhone 15 (128 GB) - Black
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [980101d6-8e72-4acc-9149-c26a9f9558ba, findElement {using=link text, value=Apple iPhone 15 (128 GB) - Black}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.1, moz:accessibilityChecks: false, moz:buildID: 20240321230221, moz:debuggerAddress: 127.0.0.1:29271, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2264, moz:profile: C:\Users\VARUNB~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29271/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 980101d6-8e72-4acc-9149-c26a9f9558ba
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.sendKeys(Unknown Source)
+	at pages.AmazonSelectProduct.clickOnProduct(AmazonSelectProduct.java:24)
+	at test.AmazonHomePage_Test.selectProduct(AmazonHomePage_Test.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.AmazonHomePage_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePinCode">
+                  </a> <!-- changePinCode -->
+                  <span class="method-name">changePinCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePinCode">
+                  </a> <!-- changePinCode -->
+                  <span class="method-name">changePinCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCustomerServices">
+                  </a> <!-- checkCustomerServices -->
+                  <span class="method-name">checkCustomerServices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCustomerServices">
+                  </a> <!-- checkCustomerServices -->
+                  <span class="method-name">checkCustomerServices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCustomerServices">
+                  </a> <!-- checkCustomerServices -->
+                  <span class="method-name">checkCustomerServices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkImagesOfProduct">
+                  </a> <!-- checkImagesOfProduct -->
+                  <span class="method-name">checkImagesOfProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkImagesOfProduct">
+                  </a> <!-- checkImagesOfProduct -->
+                  <span class="method-name">checkImagesOfProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMyOrders">
+                  </a> <!-- checkMyOrders -->
+                  <span class="method-name">checkMyOrders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMyOrders">
+                  </a> <!-- checkMyOrders -->
+                  <span class="method-name">checkMyOrders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMyOrders">
+                  </a> <!-- checkMyOrders -->
+                  <span class="method-name">checkMyOrders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutProduct">
+                  </a> <!-- checkOutProduct -->
+                  <span class="method-name">checkOutProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAmazonSite">
+                  </a> <!-- getAmazonSite -->
+                  <span class="method-name">getAmazonSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAmazonSite">
+                  </a> <!-- getAmazonSite -->
+                  <span class="method-name">getAmazonSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAmazonSite">
+                  </a> <!-- getAmazonSite -->
+                  <span class="method-name">getAmazonSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct">
+                  </a> <!-- searchProduct -->
+                  <span class="method-name">searchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct">
+                  </a> <!-- searchProduct -->
+                  <span class="method-name">searchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct">
+                  </a> <!-- searchProduct -->
+                  <span class="method-name">searchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProduct">
+                  </a> <!-- selectProduct -->
+                  <span class="method-name">selectProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProduct">
+                  </a> <!-- selectProduct -->
+                  <span class="method-name">selectProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\varunbajpai\eclipse-workspace\SeleniumAssignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Chrome Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.AmazonHomePage_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Firefox Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.AmazonHomePage_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox Test --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Edge Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;ie&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.AmazonHomePage_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkImagesOfProduct')
+data.setCell(0, 2, 'test.AmazonHomePage_Test')
+data.setCell(0, 3, 44819);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addToCart')
+data.setCell(1, 2, 'test.AmazonHomePage_Test')
+data.setCell(1, 3, 43541);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkImagesOfProduct')
+data.setCell(2, 2, 'test.AmazonHomePage_Test')
+data.setCell(2, 3, 40883);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getAmazonSite')
+data.setCell(3, 2, 'test.AmazonHomePage_Test')
+data.setCell(3, 3, 32328);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getAmazonSite')
+data.setCell(4, 2, 'test.AmazonHomePage_Test')
+data.setCell(4, 3, 14780);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'changePinCode')
+data.setCell(5, 2, 'test.AmazonHomePage_Test')
+data.setCell(5, 3, 12488);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getAmazonSite')
+data.setCell(6, 2, 'test.AmazonHomePage_Test')
+data.setCell(6, 3, 11389);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectProduct')
+data.setCell(7, 2, 'test.AmazonHomePage_Test')
+data.setCell(7, 3, 11222);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addToCart')
+data.setCell(8, 2, 'test.AmazonHomePage_Test')
+data.setCell(8, 3, 10464);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkCustomerServices')
+data.setCell(9, 2, 'test.AmazonHomePage_Test')
+data.setCell(9, 3, 10367);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'addToCart')
+data.setCell(10, 2, 'test.AmazonHomePage_Test')
+data.setCell(10, 3, 10177);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkOutProduct')
+data.setCell(11, 2, 'test.AmazonHomePage_Test')
+data.setCell(11, 3, 10105);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'searchProduct')
+data.setCell(12, 2, 'test.AmazonHomePage_Test')
+data.setCell(12, 3, 8300);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'changePinCode')
+data.setCell(13, 2, 'test.AmazonHomePage_Test')
+data.setCell(13, 3, 7918);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkCustomerServices')
+data.setCell(14, 2, 'test.AmazonHomePage_Test')
+data.setCell(14, 3, 7898);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'searchProduct')
+data.setCell(15, 2, 'test.AmazonHomePage_Test')
+data.setCell(15, 3, 7771);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'changePinCode')
+data.setCell(16, 2, 'test.AmazonHomePage_Test')
+data.setCell(16, 3, 5103);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkImagesOfProduct')
+data.setCell(17, 2, 'test.AmazonHomePage_Test')
+data.setCell(17, 3, 4976);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkCustomerServices')
+data.setCell(18, 2, 'test.AmazonHomePage_Test')
+data.setCell(18, 3, 4958);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'selectProduct')
+data.setCell(19, 2, 'test.AmazonHomePage_Test')
+data.setCell(19, 3, 4601);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkOutProduct')
+data.setCell(20, 2, 'test.AmazonHomePage_Test')
+data.setCell(20, 3, 3680);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkMyOrders')
+data.setCell(21, 2, 'test.AmazonHomePage_Test')
+data.setCell(21, 3, 2560);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkLogin')
+data.setCell(22, 2, 'test.AmazonHomePage_Test')
+data.setCell(22, 3, 2422);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkSignUp')
+data.setCell(23, 2, 'test.AmazonHomePage_Test')
+data.setCell(23, 3, 2345);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkMyOrders')
+data.setCell(24, 2, 'test.AmazonHomePage_Test')
+data.setCell(24, 3, 2165);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'searchProduct')
+data.setCell(25, 2, 'test.AmazonHomePage_Test')
+data.setCell(25, 3, 2147);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'checkSignUp')
+data.setCell(26, 2, 'test.AmazonHomePage_Test')
+data.setCell(26, 3, 1814);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'checkLogin')
+data.setCell(27, 2, 'test.AmazonHomePage_Test')
+data.setCell(27, 3, 1781);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'checkMyOrders')
+data.setCell(28, 2, 'test.AmazonHomePage_Test')
+data.setCell(28, 3, 1570);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'checkOutProduct')
+data.setCell(29, 2, 'test.AmazonHomePage_Test')
+data.setCell(29, 3, 1423);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'selectProduct')
+data.setCell(30, 2, 'test.AmazonHomePage_Test')
+data.setCell(30, 3, 1376);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'checkLogin')
+data.setCell(31, 2, 'test.AmazonHomePage_Test')
+data.setCell(31, 3, 840);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'checkSignUp')
+data.setCell(32, 2, 'test.AmazonHomePage_Test')
+data.setCell(32, 3, 729);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'anotherIntentionalFailure')
+data.setCell(33, 2, 'test.AmazonHomePage_Test')
+data.setCell(33, 3, 2);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'anotherIntentionalFailure')
+data.setCell(34, 2, 'test.AmazonHomePage_Test')
+data.setCell(34, 3, 2);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'anotherIntentionalFailure')
+data.setCell(35, 2, 'test.AmazonHomePage_Test')
+data.setCell(35, 3, 2);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.AmazonHomePage_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initializeDriver(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">initializeDriver(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">initializeDriver(ie)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">getAmazonSite</span>
+                <span class="method-start">2292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAmazonSite</span>
+                <span class="method-start">3528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAmazonSite</span>
+                <span class="method-start">9574 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=getAmazonSite status=SUCCESS method=AmazonHomePage_Test.getAmazonSite()[pri:1, inst...)</span>
+                <span class="method-start">13700 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchProduct</span>
+                <span class="method-start">13781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=getAmazonSite status=SUCCESS method=AmazonHomePage_Test.getAmazonSite()[pri:1, inst...)</span>
+                <span class="method-start">18314 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchProduct</span>
+                <span class="method-start">18322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=searchProduct status=SUCCESS method=AmazonHomePage_Test.searchProduct()[pri:2, inst...)</span>
+                <span class="method-start">21556 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectProduct</span>
+                <span class="method-start">21559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=selectProduct status=SUCCESS method=AmazonHomePage_Test.selectProduct()[pri:3, inst...)</span>
+                <span class="method-start">22939 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkImagesOfProduct</span>
+                <span class="method-start">22944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=searchProduct status=SUCCESS method=AmazonHomePage_Test.searchProduct()[pri:2, inst...)</span>
+                <span class="method-start">26626 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectProduct</span>
+                <span class="method-start">26629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=selectProduct status=SUCCESS method=AmazonHomePage_Test.selectProduct()[pri:3, inst...)</span>
+                <span class="method-start">31233 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkImagesOfProduct</span>
+                <span class="method-start">31237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=getAmazonSite status=SUCCESS method=AmazonHomePage_Test.getAmazonSite()[pri:1, inst...)</span>
+                <span class="method-start">41916 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchProduct</span>
+                <span class="method-start">41923 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=searchProduct status=SUCCESS method=AmazonHomePage_Test.searchProduct()[pri:2, inst...)</span>
+                <span class="method-start">44074 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectProduct</span>
+                <span class="method-start">44084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=selectProduct status=FAILURE method=AmazonHomePage_Test.selectProduct()[pri:3, inst...)</span>
+                <span class="method-start">55321 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkImagesOfProduct</span>
+                <span class="method-start">56304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkImagesOfProduct status=SUCCESS method=AmazonHomePage_Test.checkImagesOfProduct...)</span>
+                <span class="method-start">61285 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addToCart</span>
+                <span class="method-start">61287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkImagesOfProduct status=FAILURE method=AmazonHomePage_Test.checkImagesOfProduct...)</span>
+                <span class="method-start">67769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addToCart</span>
+                <span class="method-start">70938 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkImagesOfProduct status=SUCCESS method=AmazonHomePage_Test.checkImagesOfProduct...)</span>
+                <span class="method-start">72121 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addToCart</span>
+                <span class="method-start">72123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=addToCart status=SUCCESS method=AmazonHomePage_Test.addToCart()[pri:5, instance:tes...)</span>
+                <span class="method-start">81118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkOutProduct</span>
+                <span class="method-start">81122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=addToCart status=SUCCESS method=AmazonHomePage_Test.addToCart()[pri:5, instance:tes...)</span>
+                <span class="method-start">82588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkOutProduct</span>
+                <span class="method-start">82589 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkOutProduct status=SUCCESS method=AmazonHomePage_Test.checkOutProduct()[pri:6, ...)</span>
+                <span class="method-start">84805 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkCustomerServices</span>
+                <span class="method-start">84806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkCustomerServices status=SUCCESS method=AmazonHomePage_Test.checkCustomerServic...)</span>
+                <span class="method-start">89766 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkMyOrders</span>
+                <span class="method-start">89770 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkMyOrders status=SUCCESS method=AmazonHomePage_Test.checkMyOrders()[pri:8, inst...)</span>
+                <span class="method-start">91342 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">changePinCode</span>
+                <span class="method-start">91344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkOutProduct status=FAILURE method=AmazonHomePage_Test.checkOutProduct()[pri:6, ...)</span>
+                <span class="method-start">92698 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkCustomerServices</span>
+                <span class="method-start">94006 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=changePinCode status=SUCCESS method=AmazonHomePage_Test.changePinCode()[pri:9, inst...)</span>
+                <span class="method-start">96451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkLogin</span>
+                <span class="method-start">96455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkLogin status=FAILURE method=AmazonHomePage_Test.checkLogin()[pri:10, instance:...)</span>
+                <span class="method-start">98241 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkSignUp</span>
+                <span class="method-start">101050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkCustomerServices status=SUCCESS method=AmazonHomePage_Test.checkCustomerServic...)</span>
+                <span class="method-start">101906 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkMyOrders</span>
+                <span class="method-start">101909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkSignUp status=FAILURE method=AmazonHomePage_Test.checkSignUp()[pri:11, instanc...)</span>
+                <span class="method-start">102869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">anotherIntentionalFailure</span>
+                <span class="method-start">103299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=anotherIntentionalFailure status=FAILURE method=AmazonHomePage_Test.anotherIntentio...)</span>
+                <span class="method-start">103304 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">103746 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkMyOrders status=SUCCESS method=AmazonHomePage_Test.checkMyOrders()[pri:8, inst...)</span>
+                <span class="method-start">104077 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">changePinCode</span>
+                <span class="method-start">104083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=addToCart status=SUCCESS method=AmazonHomePage_Test.addToCart()[pri:5, instance:tes...)</span>
+                <span class="method-start">104831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkOutProduct</span>
+                <span class="method-start">104834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkOutProduct status=FAILURE method=AmazonHomePage_Test.checkOutProduct()[pri:6, ...)</span>
+                <span class="method-start">106266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkCustomerServices</span>
+                <span class="method-start">107630 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=changePinCode status=SUCCESS method=AmazonHomePage_Test.changePinCode()[pri:9, inst...)</span>
+                <span class="method-start">112006 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkLogin</span>
+                <span class="method-start">112011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkLogin status=FAILURE method=AmazonHomePage_Test.checkLogin()[pri:10, instance:...)</span>
+                <span class="method-start">114437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkSignUp</span>
+                <span class="method-start">116270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkCustomerServices status=SUCCESS method=AmazonHomePage_Test.checkCustomerServic...)</span>
+                <span class="method-start">117999 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkMyOrders</span>
+                <span class="method-start">118002 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkSignUp status=FAILURE method=AmazonHomePage_Test.checkSignUp()[pri:11, instanc...)</span>
+                <span class="method-start">118617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">anotherIntentionalFailure</span>
+                <span class="method-start">119115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=anotherIntentionalFailure status=FAILURE method=AmazonHomePage_Test.anotherIntentio...)</span>
+                <span class="method-start">119118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">119721 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkMyOrders status=SUCCESS method=AmazonHomePage_Test.checkMyOrders()[pri:8, inst...)</span>
+                <span class="method-start">120567 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">changePinCode</span>
+                <span class="method-start">120569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=changePinCode status=FAILURE method=AmazonHomePage_Test.changePinCode()[pri:9, inst...)</span>
+                <span class="method-start">133059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkLogin</span>
+                <span class="method-start">133817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkLogin status=FAILURE method=AmazonHomePage_Test.checkLogin()[pri:10, instance:...)</span>
+                <span class="method-start">134658 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkSignUp</span>
+                <span class="method-start">134830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=checkSignUp status=FAILURE method=AmazonHomePage_Test.checkSignUp()[pri:11, instanc...)</span>
+                <span class="method-start">135561 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">anotherIntentionalFailure</span>
+                <span class="method-start">135701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getTestResult([TestResult name=anotherIntentionalFailure status=FAILURE method=AmazonHomePage_Test.anotherIntentio...)</span>
+                <span class="method-start">135705 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">135823 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

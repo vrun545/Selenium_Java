@@ -1,0 +1,751 @@
+15:07:27.201 [main] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+15:07:27.228 [main] INFO  - Launching Amazon Site
+15:07:30.174 [main] INFO  - getAmazonSite Passed
+15:07:30.179 [main] INFO  - Searching product on Amazon Site
+15:07:33.260 [main] INFO  - searchProduct Passed
+15:07:33.267 [main] INFO  - Selecting Product Amazon Site
+15:07:34.833 [main] INFO  - selectProduct Passed
+15:07:34.841 [main] INFO  - Add product to Cart
+15:07:45.357 [main] ERROR - addToCart Failed
+15:07:45.362 [main] INFO  - click operation on Customer Services
+15:07:46.930 [main] INFO  - checkCustomerServices Passed
+15:07:46.933 [main] INFO  - Checking My Orders Page
+15:07:49.286 [main] INFO  - checkMyOrders Passed
+15:07:49.299 [main] INFO  - Changing Pincode
+15:07:54.827 [main] INFO  - changePinCode Passed
+15:07:57.872 [main] ERROR - checkLogin Failed
+15:07:59.093 [main] ERROR - checkSignUp Failed
+15:07:59.252 [main] ERROR - anotherIntentionalFailure Failed
+15:12:52.073 [main] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+15:12:52.149 [main] INFO  - Launching Amazon Site
+15:12:56.670 [main] INFO  - getAmazonSite Passed
+15:12:56.692 [main] INFO  - Searching product on Amazon Site
+15:13:03.234 [main] INFO  - searchProduct Passed
+15:13:03.244 [main] INFO  - Selecting Product Amazon Site
+15:13:04.100 [main] INFO  - selectProduct Passed
+15:13:04.105 [main] INFO  - Add product to Cart
+15:13:14.525 [main] ERROR - addToCart Failed
+15:13:14.527 [main] INFO  - click operation on Customer Services
+15:13:16.223 [main] INFO  - checkCustomerServices Passed
+15:13:16.227 [main] INFO  - Checking My Orders Page
+15:13:18.635 [main] INFO  - checkMyOrders Passed
+15:13:18.642 [main] INFO  - Changing Pincode
+15:13:24.607 [main] INFO  - changePinCode Passed
+15:13:28.332 [main] ERROR - checkLogin Failed
+15:13:29.790 [main] ERROR - checkSignUp Failed
+15:13:29.968 [main] ERROR - anotherIntentionalFailure Failed
+15:15:58.908 [main] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+15:15:58.935 [main] INFO  - Launching Amazon Site
+15:16:03.167 [main] INFO  - getAmazonSite Passed
+15:16:03.183 [main] INFO  - Searching product on Amazon Site
+15:16:07.941 [main] INFO  - searchProduct Passed
+15:16:07.949 [main] INFO  - Selecting Product Amazon Site
+15:16:08.861 [main] INFO  - selectProduct Passed
+15:16:08.872 [main] INFO  - Add product to Cart
+15:16:19.271 [main] ERROR - addToCart Failed
+15:16:19.275 [main] INFO  - click operation on Customer Services
+15:16:21.155 [main] INFO  - checkCustomerServices Passed
+15:16:21.160 [main] INFO  - Checking My Orders Page
+15:16:23.622 [main] INFO  - checkMyOrders Passed
+15:16:23.630 [main] INFO  - Changing Pincode
+15:16:29.261 [main] INFO  - changePinCode Passed
+15:16:32.653 [main] ERROR - checkLogin Failed
+15:16:33.742 [main] ERROR - checkSignUp Failed
+15:16:33.903 [main] ERROR - anotherIntentionalFailure Failed
+15:19:54.017 [main] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+15:19:54.045 [main] INFO  - Launching Amazon Site
+15:19:57.075 [main] INFO  - getAmazonSite Passed
+15:19:57.096 [main] INFO  - Searching product on Amazon Site
+15:20:02.493 [main] INFO  - searchProduct Passed
+15:20:02.505 [main] INFO  - Selecting Product Amazon Site
+15:20:03.313 [main] INFO  - selectProduct Passed
+15:20:03.321 [main] INFO  - Checking Images of Product
+15:20:04.299 [main] ERROR - checkImagesOfProduct Failed
+15:20:04.308 [main] INFO  - Add product to Cart
+15:20:14.635 [main] ERROR - addToCart Failed
+15:20:14.639 [main] INFO  - click operation on Customer Services
+15:20:16.589 [main] INFO  - checkCustomerServices Passed
+15:20:16.593 [main] INFO  - Checking My Orders Page
+15:20:20.387 [main] INFO  - checkMyOrders Passed
+15:20:20.389 [main] INFO  - Changing Pincode
+15:20:26.939 [main] INFO  - changePinCode Passed
+15:20:30.236 [main] ERROR - checkLogin Failed
+15:20:31.551 [main] ERROR - checkSignUp Failed
+15:20:31.758 [main] ERROR - anotherIntentionalFailure Failed
+15:25:45.010 [main] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+15:25:45.128 [main] INFO  - Launching Amazon Site
+15:25:58.359 [main] INFO  - getAmazonSite Passed
+15:25:58.382 [main] INFO  - Searching product on Amazon Site
+15:26:02.796 [main] INFO  - searchProduct Passed
+15:26:02.805 [main] INFO  - Selecting Product Amazon Site
+15:26:03.827 [main] INFO  - selectProduct Passed
+15:26:03.835 [main] INFO  - Checking Images of Product
+15:26:05.621 [main] ERROR - checkImagesOfProduct Failed
+15:26:05.626 [main] INFO  - Add product to Cart
+15:26:16.146 [main] ERROR - addToCart Failed
+15:26:16.150 [main] INFO  - click operation on Customer Services
+15:26:21.135 [main] INFO  - checkCustomerServices Passed
+15:26:21.142 [main] INFO  - Checking My Orders Page
+15:26:23.791 [main] INFO  - checkMyOrders Passed
+15:26:23.794 [main] INFO  - Changing Pincode
+15:26:42.751 [main] INFO  - changePinCode Passed
+15:26:46.681 [main] ERROR - checkLogin Failed
+15:26:47.990 [main] ERROR - checkSignUp Failed
+15:26:48.160 [main] ERROR - anotherIntentionalFailure Failed
+15:27:37.541 [main] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+15:27:37.693 [main] INFO  - Launching Amazon Site
+15:27:40.766 [main] INFO  - getAmazonSite Passed
+15:27:40.787 [main] INFO  - Searching product on Amazon Site
+15:27:46.038 [main] INFO  - searchProduct Passed
+15:27:46.047 [main] INFO  - Selecting Product Amazon Site
+15:27:46.949 [main] INFO  - selectProduct Passed
+15:27:46.953 [main] INFO  - Checking Images of Product
+15:27:47.977 [main] ERROR - checkImagesOfProduct Failed
+15:27:47.985 [main] INFO  - Add product to Cart
+15:27:54.158 [main] INFO  - addToCart Passed
+15:27:54.162 [main] INFO  - click operation on Customer Services
+15:27:56.646 [main] INFO  - checkCustomerServices Passed
+15:27:56.653 [main] INFO  - Checking My Orders Page
+15:27:58.583 [main] INFO  - checkMyOrders Passed
+15:27:58.589 [main] INFO  - Changing Pincode
+15:28:03.607 [main] INFO  - changePinCode Passed
+15:28:06.965 [main] ERROR - checkLogin Failed
+15:28:08.272 [main] ERROR - checkSignUp Failed
+15:28:08.442 [main] ERROR - anotherIntentionalFailure Failed
+15:30:19.203 [main] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+15:30:19.233 [main] INFO  - Launching Amazon Site
+15:30:30.898 [main] INFO  - getAmazonSite Passed
+15:30:30.917 [main] INFO  - Searching product on Amazon Site
+15:30:36.102 [main] INFO  - searchProduct Passed
+15:30:36.115 [main] INFO  - Selecting Product Amazon Site
+15:30:36.988 [main] INFO  - selectProduct Passed
+15:30:36.998 [main] INFO  - Checking Images of Product
+15:30:37.970 [main] ERROR - checkImagesOfProduct Failed
+15:30:37.981 [main] INFO  - Add product to Cart
+15:30:48.407 [main] ERROR - addToCart Failed
+15:30:48.411 [main] INFO  - click operation on Customer Services
+15:30:52.330 [main] INFO  - checkCustomerServices Passed
+15:30:52.334 [main] INFO  - Checking My Orders Page
+15:30:57.265 [main] INFO  - checkMyOrders Passed
+15:30:57.268 [main] INFO  - Changing Pincode
+15:31:01.323 [main] INFO  - changePinCode Passed
+15:31:06.073 [main] ERROR - checkLogin Failed
+15:31:07.148 [main] ERROR - checkSignUp Failed
+15:31:07.315 [main] ERROR - anotherIntentionalFailure Failed
+15:32:04.149 [main] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+15:32:04.221 [main] INFO  - Launching Amazon Site
+15:32:07.837 [main] INFO  - getAmazonSite Passed
+15:32:07.854 [main] INFO  - Searching product on Amazon Site
+15:32:14.187 [main] INFO  - searchProduct Passed
+15:32:14.194 [main] INFO  - Selecting Product Amazon Site
+15:32:15.002 [main] INFO  - selectProduct Passed
+15:32:15.011 [main] INFO  - Checking Images of Product
+15:32:16.061 [main] ERROR - checkImagesOfProduct Failed
+15:32:16.068 [main] INFO  - Add product to Cart
+15:32:22.561 [main] INFO  - addToCart Passed
+15:32:22.569 [main] INFO  - click operation on Customer Services
+15:32:25.985 [main] INFO  - checkCustomerServices Passed
+15:32:25.989 [main] INFO  - Checking My Orders Page
+15:32:28.601 [main] INFO  - checkMyOrders Passed
+15:32:28.606 [main] INFO  - Changing Pincode
+15:32:32.634 [main] INFO  - changePinCode Passed
+15:32:36.111 [main] ERROR - checkLogin Failed
+15:32:37.342 [main] ERROR - checkSignUp Failed
+15:32:37.497 [main] ERROR - anotherIntentionalFailure Failed
+15:38:08.931 [main] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+15:38:08.962 [main] INFO  - Launching Amazon Site
+15:38:13.813 [main] INFO  - getAmazonSite Passed
+15:38:13.823 [main] INFO  - Searching product on Amazon Site
+15:38:18.785 [main] INFO  - searchProduct Passed
+15:38:18.793 [main] INFO  - Selecting Product Amazon Site
+15:38:19.771 [main] INFO  - selectProduct Passed
+15:38:19.777 [main] INFO  - Checking Images of Product
+15:38:20.728 [main] ERROR - checkImagesOfProduct Failed
+15:38:20.735 [main] INFO  - Add product to Cart
+15:38:30.958 [main] INFO  - addToCart Passed
+15:38:30.965 [main] INFO  - CheckOut Added Product
+15:38:38.963 [main] INFO  - checkOutProduct Passed
+15:38:38.967 [main] INFO  - click operation on Customer Services
+15:38:49.158 [main] ERROR - checkCustomerServices Failed
+15:38:49.161 [main] INFO  - Checking My Orders Page
+15:38:59.368 [main] ERROR - checkMyOrders Failed
+15:38:59.370 [main] INFO  - Changing Pincode
+15:39:02.018 [main] INFO  - changePinCode Passed
+15:39:08.843 [main] ERROR - checkLogin Failed
+15:39:09.933 [main] ERROR - checkSignUp Failed
+15:39:10.061 [main] ERROR - anotherIntentionalFailure Failed
+15:40:22.905 [main] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+15:40:22.942 [main] INFO  - Launching Amazon Site
+15:40:28.924 [main] INFO  - getAmazonSite Passed
+15:40:28.945 [main] INFO  - Searching product on Amazon Site
+15:40:34.728 [main] INFO  - searchProduct Passed
+15:40:34.737 [main] INFO  - Selecting Product Amazon Site
+15:40:35.579 [main] INFO  - selectProduct Passed
+15:40:35.586 [main] INFO  - Checking Images of Product
+15:40:36.671 [main] ERROR - checkImagesOfProduct Failed
+15:40:36.680 [main] INFO  - Add product to Cart
+15:40:43.821 [main] INFO  - addToCart Passed
+15:40:43.827 [main] INFO  - CheckOut Added Product
+15:40:48.629 [main] INFO  - checkOutProduct Passed
+15:40:48.635 [main] INFO  - click operation on Customer Services
+15:40:54.136 [main] INFO  - checkCustomerServices Passed
+15:40:54.142 [main] INFO  - Checking My Orders Page
+15:40:55.780 [main] INFO  - checkMyOrders Passed
+15:40:55.785 [main] INFO  - Changing Pincode
+15:40:59.300 [main] INFO  - changePinCode Passed
+15:41:02.606 [main] ERROR - checkLogin Failed
+15:41:03.891 [main] ERROR - checkSignUp Failed
+15:41:04.066 [main] ERROR - anotherIntentionalFailure Failed
+15:47:28.692 [main] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+15:47:28.794 [main] INFO  - Launching Amazon Site
+15:47:34.508 [main] INFO  - getAmazonSite Passed
+15:47:34.528 [main] INFO  - Searching product on Amazon Site
+15:47:38.841 [main] INFO  - searchProduct Passed
+15:47:38.851 [main] INFO  - Selecting Product Amazon Site
+15:47:39.746 [main] INFO  - selectProduct Passed
+15:47:39.750 [main] INFO  - Checking Images of Product
+15:47:47.189 [main] ERROR - checkImagesOfProduct Failed
+15:47:47.195 [main] INFO  - Add product to Cart
+15:47:52.722 [main] INFO  - addToCart Passed
+15:47:52.728 [main] INFO  - CheckOut Added Product
+15:47:56.763 [main] INFO  - checkOutProduct Passed
+15:47:56.767 [main] INFO  - click operation on Customer Services
+15:48:01.473 [main] INFO  - checkCustomerServices Passed
+15:48:01.478 [main] INFO  - Checking My Orders Page
+15:48:03.063 [main] INFO  - checkMyOrders Passed
+15:48:03.067 [main] INFO  - Changing Pincode
+15:48:06.877 [main] INFO  - changePinCode Passed
+15:48:10.077 [main] ERROR - checkLogin Failed
+15:48:11.411 [main] ERROR - checkSignUp Failed
+15:48:11.610 [main] ERROR - anotherIntentionalFailure Failed
+16:18:40.687 [main] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+16:18:40.792 [main] INFO  - Launching Amazon Site
+16:18:44.094 [main] INFO  - getAmazonSite Passed
+16:18:44.105 [main] INFO  - Searching product on Amazon Site
+16:18:50.563 [main] INFO  - searchProduct Passed
+16:18:50.569 [main] INFO  - Selecting Product Amazon Site
+16:18:51.403 [main] INFO  - selectProduct Passed
+16:18:51.409 [main] INFO  - Checking Images of Product
+16:18:56.152 [main] INFO  - checkImagesOfProduct Passed
+16:18:56.154 [main] INFO  - Add product to Cart
+16:18:59.470 [main] INFO  - addToCart Passed
+16:18:59.473 [main] INFO  - CheckOut Added Product
+16:19:09.985 [main] ERROR - checkOutProduct Failed
+16:19:09.988 [main] INFO  - click operation on Customer Services
+16:19:14.350 [main] INFO  - checkCustomerServices Passed
+16:19:14.356 [main] INFO  - Checking My Orders Page
+16:19:15.956 [main] INFO  - checkMyOrders Passed
+16:19:15.960 [main] INFO  - Changing Pincode
+16:19:19.281 [main] INFO  - changePinCode Passed
+16:19:22.345 [main] ERROR - checkLogin Failed
+16:19:23.518 [main] ERROR - checkSignUp Failed
+16:19:23.694 [main] ERROR - anotherIntentionalFailure Failed
+18:11:52.907 [main] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+18:11:52.998 [main] INFO  - Launching Amazon Site
+18:11:56.960 [main] INFO  - getAmazonSite Passed
+18:11:57.001 [main] INFO  - Searching product on Amazon Site
+18:12:03.406 [main] INFO  - searchProduct Passed
+18:12:03.415 [main] INFO  - Selecting Product Amazon Site
+18:12:04.465 [main] INFO  - selectProduct Passed
+18:12:04.471 [main] INFO  - Checking Images of Product
+18:12:10.566 [main] INFO  - checkImagesOfProduct Passed
+18:12:10.571 [main] INFO  - Add product to Cart
+18:12:22.124 [main] INFO  - addToCart Passed
+18:12:22.128 [main] INFO  - CheckOut Added Product
+18:12:32.662 [main] ERROR - checkOutProduct Failed
+18:12:32.665 [main] INFO  - click operation on Customer Services
+18:12:36.455 [main] INFO  - checkCustomerServices Passed
+18:12:36.458 [main] INFO  - Checking My Orders Page
+18:12:38.726 [main] INFO  - checkMyOrders Passed
+18:12:38.729 [main] INFO  - Changing Pincode
+18:12:42.149 [main] INFO  - changePinCode Passed
+18:12:46.117 [main] ERROR - checkLogin Failed
+18:12:47.299 [main] ERROR - checkSignUp Failed
+18:12:47.516 [main] ERROR - anotherIntentionalFailure Failed
+19:08:36.096 [TestNG-tests-3] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+19:08:36.096 [TestNG-tests-1] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+19:08:36.111 [TestNG-tests-1] INFO  - Launching Amazon Site
+19:08:36.111 [TestNG-tests-3] INFO  - Launching Amazon Site
+19:08:40.659 [TestNG-tests-1] INFO  - getAmazonSite Passed
+19:08:40.669 [TestNG-tests-1] INFO  - Searching product on Amazon Site
+19:08:40.849 [TestNG-tests-3] INFO  - getAmazonSite Passed
+19:08:40.852 [TestNG-tests-3] INFO  - Searching product on Amazon Site
+19:08:49.125 [TestNG-tests-3] INFO  - searchProduct Passed
+19:08:49.130 [TestNG-tests-3] INFO  - Selecting Product Amazon Site
+19:08:51.725 [TestNG-tests-3] INFO  - selectProduct Passed
+19:08:51.730 [TestNG-tests-3] INFO  - Checking Images of Product
+19:08:51.794 [TestNG-tests-1] INFO  - searchProduct Passed
+19:08:51.816 [TestNG-tests-1] INFO  - Selecting Product Amazon Site
+19:08:56.083 [TestNG-tests-1] INFO  - selectProduct Passed
+19:08:56.089 [TestNG-tests-1] INFO  - Checking Images of Product
+19:09:06.109 [TestNG-tests-3] INFO  - checkImagesOfProduct Passed
+19:09:06.112 [TestNG-tests-3] INFO  - Add product to Cart
+19:09:07.454 [TestNG-tests-1] INFO  - checkImagesOfProduct Passed
+19:09:07.456 [TestNG-tests-1] INFO  - Add product to Cart
+19:09:16.955 [TestNG-tests-1] INFO  - addToCart Passed
+19:09:16.957 [TestNG-tests-1] INFO  - CheckOut Added Product
+19:09:21.386 [TestNG-tests-3] INFO  - addToCart Passed
+19:09:21.389 [TestNG-tests-3] INFO  - CheckOut Added Product
+19:09:28.009 [TestNG-tests-1] ERROR - checkOutProduct Failed
+19:09:28.010 [TestNG-tests-1] INFO  - click operation on Customer Services
+19:09:32.433 [TestNG-tests-3] ERROR - checkOutProduct Failed
+19:09:32.438 [TestNG-tests-3] INFO  - click operation on Customer Services
+19:09:34.680 [TestNG-tests-1] INFO  - checkCustomerServices Passed
+19:09:34.685 [TestNG-tests-1] INFO  - Checking My Orders Page
+19:09:38.120 [TestNG-tests-1] INFO  - checkMyOrders Passed
+19:09:38.125 [TestNG-tests-1] INFO  - Changing Pincode
+19:09:40.152 [TestNG-tests-3] INFO  - checkCustomerServices Passed
+19:09:40.156 [TestNG-tests-3] INFO  - Checking My Orders Page
+19:09:42.111 [TestNG-tests-3] INFO  - checkMyOrders Passed
+19:09:42.116 [TestNG-tests-3] INFO  - Changing Pincode
+20:50:30.695 [TestNG-tests-3] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+20:50:30.713 [TestNG-tests-3] INFO  - Launching Amazon Site
+20:50:33.935 [TestNG-tests-3] INFO  - getAmazonSite Passed
+20:50:33.938 [TestNG-tests-3] INFO  - Searching product on Amazon Site
+20:50:35.561 [TestNG-tests-3] INFO  - searchProduct Passed
+20:50:35.562 [TestNG-tests-3] INFO  - Selecting Product Amazon Site
+20:50:35.753 [TestNG-tests-3] INFO  - selectProduct Passed
+20:50:35.756 [TestNG-tests-3] INFO  - Checking Images of Product
+20:50:51.301 [TestNG-tests-3] ERROR - checkImagesOfProduct Failed
+20:50:51.309 [TestNG-tests-3] INFO  - Add product to Cart
+20:51:01.423 [TestNG-tests-3] INFO  - addToCart Passed
+20:51:01.426 [TestNG-tests-3] INFO  - CheckOut Added Product
+20:51:06.608 [TestNG-tests-3] INFO  - checkOutProduct Passed
+20:51:06.611 [TestNG-tests-3] INFO  - click operation on Customer Services
+20:51:13.586 [TestNG-tests-3] INFO  - checkCustomerServices Passed
+20:51:13.590 [TestNG-tests-3] INFO  - Checking My Orders Page
+20:51:15.961 [TestNG-tests-3] INFO  - checkMyOrders Passed
+20:51:15.964 [TestNG-tests-3] INFO  - Changing Pincode
+20:51:19.701 [TestNG-tests-3] INFO  - changePinCode Passed
+20:51:23.498 [TestNG-tests-3] ERROR - checkLogin Failed
+20:51:25.095 [TestNG-tests-3] ERROR - checkSignUp Failed
+20:51:25.342 [TestNG-tests-3] ERROR - anotherIntentionalFailure Failed
+20:55:25.973 [TestNG-tests-3] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+20:55:26.137 [TestNG-tests-3] INFO  - Launching Amazon Site
+20:55:31.100 [TestNG-tests-1] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+20:55:31.111 [TestNG-tests-1] INFO  - Launching Amazon Site
+20:55:34.267 [TestNG-tests-3] INFO  - getAmazonSite Passed
+20:55:34.277 [TestNG-tests-3] INFO  - Searching product on Amazon Site
+20:55:38.751 [TestNG-tests-1] INFO  - getAmazonSite Passed
+20:55:38.756 [TestNG-tests-1] INFO  - Searching product on Amazon Site
+20:55:44.567 [TestNG-tests-3] INFO  - searchProduct Passed
+20:55:44.576 [TestNG-tests-3] INFO  - Selecting Product Amazon Site
+20:55:45.676 [TestNG-tests-1] INFO  - searchProduct Passed
+20:55:45.681 [TestNG-tests-1] INFO  - Selecting Product Amazon Site
+20:55:47.256 [TestNG-tests-3] INFO  - selectProduct Passed
+20:55:47.261 [TestNG-tests-3] INFO  - Checking Images of Product
+20:55:51.039 [TestNG-tests-1] INFO  - selectProduct Passed
+20:55:51.044 [TestNG-tests-1] INFO  - Checking Images of Product
+20:56:01.019 [TestNG-tests-1] INFO  - checkImagesOfProduct Passed
+20:56:01.024 [TestNG-tests-1] INFO  - Add product to Cart
+20:56:02.603 [TestNG-tests-3] INFO  - checkImagesOfProduct Passed
+20:56:02.607 [TestNG-tests-3] INFO  - Add product to Cart
+20:56:08.787 [TestNG-tests-1] INFO  - addToCart Passed
+20:56:08.793 [TestNG-tests-1] INFO  - CheckOut Added Product
+20:56:14.372 [TestNG-tests-3] INFO  - addToCart Passed
+20:56:14.373 [TestNG-tests-3] INFO  - CheckOut Added Product
+20:56:19.352 [TestNG-tests-1] ERROR - checkOutProduct Failed
+20:56:19.354 [TestNG-tests-1] INFO  - click operation on Customer Services
+20:56:24.111 [TestNG-tests-1] INFO  - checkCustomerServices Passed
+20:56:24.114 [TestNG-tests-1] INFO  - Checking My Orders Page
+20:56:25.580 [TestNG-tests-3] ERROR - checkOutProduct Failed
+20:56:25.584 [TestNG-tests-3] INFO  - click operation on Customer Services
+20:56:26.383 [TestNG-tests-1] INFO  - checkMyOrders Passed
+20:56:26.393 [TestNG-tests-1] INFO  - Changing Pincode
+20:56:33.023 [TestNG-tests-1] INFO  - changePinCode Passed
+20:56:33.504 [TestNG-tests-3] INFO  - checkCustomerServices Passed
+20:56:33.508 [TestNG-tests-3] INFO  - Checking My Orders Page
+20:56:35.740 [TestNG-tests-3] INFO  - checkMyOrders Passed
+20:56:35.747 [TestNG-tests-3] INFO  - Changing Pincode
+20:56:38.495 [TestNG-tests-1] ERROR - checkLogin Failed
+20:56:40.538 [TestNG-tests-3] INFO  - changePinCode Passed
+20:56:40.939 [TestNG-tests-1] ERROR - checkSignUp Failed
+20:56:41.376 [TestNG-tests-1] ERROR - anotherIntentionalFailure Failed
+20:56:44.044 [TestNG-tests-3] ERROR - checkLogin Failed
+20:56:45.512 [TestNG-tests-3] ERROR - checkSignUp Failed
+20:56:45.750 [TestNG-tests-3] ERROR - anotherIntentionalFailure Failed
+21:02:19.829 [TestNG-tests-1] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:02:19.851 [TestNG-tests-1] INFO  - Launching Amazon Site
+21:02:19.855 [TestNG-tests-3] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:02:19.863 [TestNG-tests-3] INFO  - Launching Amazon Site
+21:02:20.213 [TestNG-tests-1] INFO  - getAmazonSite Passed
+21:02:20.217 [TestNG-tests-1] INFO  - Searching product on Amazon Site
+21:02:21.943 [TestNG-tests-3] INFO  - getAmazonSite Passed
+21:02:21.945 [TestNG-tests-3] INFO  - Searching product on Amazon Site
+21:06:25.767 [TestNG-tests-3] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:06:25.895 [TestNG-tests-3] INFO  - Launching Amazon Site
+21:06:26.576 [TestNG-tests-1] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:06:26.583 [TestNG-tests-1] INFO  - Launching Amazon Site
+21:06:30.643 [TestNG-tests-3] INFO  - getAmazonSite Passed
+21:06:30.667 [TestNG-tests-3] INFO  - Searching product on Amazon Site
+21:06:36.698 [TestNG-tests-3] INFO  - searchProduct Passed
+21:06:36.710 [TestNG-tests-3] INFO  - Selecting Product Amazon Site
+21:06:38.227 [TestNG-tests-1] INFO  - getAmazonSite Passed
+21:06:38.230 [TestNG-tests-1] INFO  - Searching product on Amazon Site
+21:06:47.390 [TestNG-tests-1] INFO  - searchProduct Passed
+21:06:47.394 [TestNG-tests-1] INFO  - Selecting Product Amazon Site
+21:06:51.306 [TestNG-tests-1] INFO  - selectProduct Passed
+21:06:51.311 [TestNG-tests-1] INFO  - Checking Images of Product
+21:06:52.851 [TestNG-tests-3] INFO  - selectProduct Passed
+21:06:52.856 [TestNG-tests-3] INFO  - Checking Images of Product
+21:07:02.339 [TestNG-tests-1] INFO  - checkImagesOfProduct Passed
+21:07:02.342 [TestNG-tests-1] INFO  - Add product to Cart
+21:07:03.492 [TestNG-tests-3] INFO  - checkImagesOfProduct Passed
+21:07:03.495 [TestNG-tests-3] INFO  - Add product to Cart
+21:07:08.357 [TestNG-tests-3] INFO  - addToCart Passed
+21:07:08.360 [TestNG-tests-3] INFO  - CheckOut Added Product
+21:07:08.616 [TestNG-tests-1] INFO  - addToCart Passed
+21:07:08.617 [TestNG-tests-1] INFO  - CheckOut Added Product
+21:07:19.230 [TestNG-tests-1] ERROR - checkOutProduct Failed
+21:07:19.232 [TestNG-tests-1] INFO  - click operation on Customer Services
+21:07:20.868 [TestNG-tests-3] ERROR - checkOutProduct Failed
+21:07:20.872 [TestNG-tests-3] INFO  - click operation on Customer Services
+21:07:23.954 [TestNG-tests-1] INFO  - checkCustomerServices Passed
+21:07:23.958 [TestNG-tests-1] INFO  - Checking My Orders Page
+21:07:26.663 [TestNG-tests-1] INFO  - checkMyOrders Passed
+21:07:26.666 [TestNG-tests-1] INFO  - Changing Pincode
+21:07:33.197 [TestNG-tests-3] INFO  - checkCustomerServices Passed
+21:07:33.201 [TestNG-tests-3] INFO  - Checking My Orders Page
+21:07:36.168 [TestNG-tests-3] INFO  - checkMyOrders Passed
+21:07:36.174 [TestNG-tests-3] INFO  - Changing Pincode
+21:07:38.453 [TestNG-tests-1] INFO  - changePinCode Passed
+21:07:44.386 [TestNG-tests-1] ERROR - checkLogin Failed
+21:07:48.105 [TestNG-tests-3] INFO  - changePinCode Passed
+21:07:49.062 [TestNG-tests-1] ERROR - checkSignUp Failed
+21:07:50.729 [TestNG-tests-1] ERROR - anotherIntentionalFailure Failed
+21:07:56.651 [TestNG-tests-3] ERROR - checkLogin Failed
+21:07:59.605 [TestNG-tests-3] ERROR - checkSignUp Failed
+21:08:00.162 [TestNG-tests-3] ERROR - anotherIntentionalFailure Failed
+21:11:42.163 [TestNG-tests-1] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:11:42.180 [TestNG-tests-1] INFO  - Launching Amazon Site
+21:11:43.371 [TestNG-tests-3] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:11:43.375 [TestNG-tests-3] INFO  - Launching Amazon Site
+21:11:46.711 [TestNG-tests-1] INFO  - getAmazonSite Passed
+21:11:46.719 [TestNG-tests-1] INFO  - Searching product on Amazon Site
+21:11:49.091 [TestNG-tests-3] INFO  - getAmazonSite Passed
+21:11:49.108 [TestNG-tests-3] INFO  - Searching product on Amazon Site
+21:12:00.499 [TestNG-tests-1] INFO  - searchProduct Passed
+21:12:00.546 [TestNG-tests-1] INFO  - Selecting Product Amazon Site
+21:12:02.496 [TestNG-tests-3] INFO  - searchProduct Passed
+21:12:02.502 [TestNG-tests-3] INFO  - Selecting Product Amazon Site
+21:12:08.611 [TestNG-tests-1] INFO  - selectProduct Passed
+21:12:08.614 [TestNG-tests-1] INFO  - Checking Images of Product
+21:12:08.856 [TestNG-tests-3] INFO  - selectProduct Passed
+21:12:08.861 [TestNG-tests-3] INFO  - Checking Images of Product
+21:12:21.215 [TestNG-tests-1] INFO  - checkImagesOfProduct Passed
+21:12:21.220 [TestNG-tests-1] INFO  - Add product to Cart
+21:12:22.120 [TestNG-tests-3] INFO  - checkImagesOfProduct Passed
+21:12:22.127 [TestNG-tests-3] INFO  - Add product to Cart
+21:12:37.622 [TestNG-tests-3] INFO  - addToCart Passed
+21:12:37.627 [TestNG-tests-3] INFO  - CheckOut Added Product
+21:12:37.678 [TestNG-tests-1] INFO  - addToCart Passed
+21:12:37.685 [TestNG-tests-1] INFO  - CheckOut Added Product
+21:12:48.495 [TestNG-tests-3] ERROR - checkOutProduct Failed
+21:12:48.498 [TestNG-tests-3] INFO  - click operation on Customer Services
+21:12:48.578 [TestNG-tests-1] ERROR - checkOutProduct Failed
+21:12:48.581 [TestNG-tests-1] INFO  - click operation on Customer Services
+21:12:57.412 [TestNG-tests-3] INFO  - checkCustomerServices Passed
+21:12:57.418 [TestNG-tests-3] INFO  - Checking My Orders Page
+21:12:57.579 [TestNG-tests-1] INFO  - checkCustomerServices Passed
+21:12:57.584 [TestNG-tests-1] INFO  - Checking My Orders Page
+21:13:00.124 [TestNG-tests-3] INFO  - checkMyOrders Passed
+21:13:00.130 [TestNG-tests-3] INFO  - Changing Pincode
+21:13:00.414 [TestNG-tests-1] INFO  - checkMyOrders Passed
+21:13:00.418 [TestNG-tests-1] INFO  - Changing Pincode
+21:13:08.692 [TestNG-tests-3] INFO  - changePinCode Passed
+21:13:10.162 [TestNG-tests-1] INFO  - changePinCode Passed
+21:13:13.225 [TestNG-tests-3] ERROR - checkLogin Failed
+21:13:13.771 [TestNG-tests-1] ERROR - checkLogin Failed
+21:13:16.105 [TestNG-tests-3] ERROR - checkSignUp Failed
+21:13:16.265 [TestNG-tests-1] ERROR - checkSignUp Failed
+21:13:16.565 [TestNG-tests-3] ERROR - anotherIntentionalFailure Failed
+21:13:16.649 [TestNG-tests-1] ERROR - anotherIntentionalFailure Failed
+21:18:53.205 [TestNG-tests-1] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:18:53.237 [TestNG-tests-1] INFO  - Launching Amazon Site
+21:18:57.217 [TestNG-tests-3] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:18:57.230 [TestNG-tests-3] INFO  - Launching Amazon Site
+21:18:59.949 [TestNG-tests-1] INFO  - getAmazonSite Passed
+21:18:59.972 [TestNG-tests-1] INFO  - Searching product on Amazon Site
+21:19:03.815 [TestNG-tests-3] INFO  - getAmazonSite Passed
+21:19:03.828 [TestNG-tests-3] INFO  - Searching product on Amazon Site
+21:19:09.343 [TestNG-tests-3] INFO  - searchProduct Passed
+21:19:09.355 [TestNG-tests-3] INFO  - Selecting Product Amazon Site
+21:19:10.748 [TestNG-tests-3] INFO  - selectProduct Passed
+21:19:10.752 [TestNG-tests-3] INFO  - Checking Images of Product
+21:19:12.129 [TestNG-tests-1] INFO  - searchProduct Passed
+21:19:12.138 [TestNG-tests-1] INFO  - Selecting Product Amazon Site
+21:19:14.437 [TestNG-tests-1] INFO  - selectProduct Passed
+21:19:14.444 [TestNG-tests-1] INFO  - Checking Images of Product
+21:19:21.330 [TestNG-tests-3] INFO  - checkImagesOfProduct Passed
+21:19:21.336 [TestNG-tests-3] INFO  - Add product to Cart
+21:19:23.852 [TestNG-tests-1] INFO  - checkImagesOfProduct Passed
+21:19:23.855 [TestNG-tests-1] INFO  - Add product to Cart
+21:19:30.268 [TestNG-tests-3] INFO  - addToCart Passed
+21:19:30.270 [TestNG-tests-3] INFO  - CheckOut Added Product
+21:19:31.513 [TestNG-tests-1] INFO  - addToCart Passed
+21:19:31.514 [TestNG-tests-1] INFO  - CheckOut Added Product
+21:19:40.898 [TestNG-tests-3] ERROR - checkOutProduct Failed
+21:19:40.899 [TestNG-tests-3] INFO  - click operation on Customer Services
+21:19:42.743 [TestNG-tests-1] ERROR - checkOutProduct Failed
+21:19:42.747 [TestNG-tests-1] INFO  - click operation on Customer Services
+21:19:48.623 [TestNG-tests-3] INFO  - checkCustomerServices Passed
+21:19:48.627 [TestNG-tests-3] INFO  - Checking My Orders Page
+21:19:50.913 [TestNG-tests-1] INFO  - checkCustomerServices Passed
+21:19:50.918 [TestNG-tests-1] INFO  - Checking My Orders Page
+21:19:51.192 [TestNG-tests-3] INFO  - checkMyOrders Passed
+21:19:51.195 [TestNG-tests-3] INFO  - Changing Pincode
+21:19:54.276 [TestNG-tests-1] INFO  - checkMyOrders Passed
+21:19:54.279 [TestNG-tests-1] INFO  - Changing Pincode
+21:19:59.574 [TestNG-tests-3] INFO  - changePinCode Passed
+21:20:01.002 [TestNG-tests-1] INFO  - changePinCode Passed
+21:20:04.178 [TestNG-tests-3] ERROR - checkLogin Failed
+21:20:04.787 [TestNG-tests-1] ERROR - checkLogin Failed
+21:20:05.838 [TestNG-tests-3] ERROR - checkSignUp Failed
+21:20:06.176 [TestNG-tests-3] ERROR - anotherIntentionalFailure Failed
+21:20:06.535 [TestNG-tests-1] ERROR - checkSignUp Failed
+21:20:06.796 [TestNG-tests-1] ERROR - anotherIntentionalFailure Failed
+21:33:46.499 [TestNG-tests-1] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:33:46.510 [TestNG-tests-1] INFO  - Launching Amazon Site
+21:33:48.551 [TestNG-tests-3] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:33:48.554 [TestNG-tests-3] INFO  - Launching Amazon Site
+21:33:48.895 [TestNG-tests-3] INFO  - getAmazonSite Passed
+21:33:48.899 [TestNG-tests-3] INFO  - Searching product on Amazon Site
+21:33:53.484 [TestNG-tests-1] INFO  - getAmazonSite Passed
+21:33:53.490 [TestNG-tests-1] INFO  - Searching product on Amazon Site
+21:34:02.064 [TestNG-tests-1] INFO  - searchProduct Passed
+21:34:02.072 [TestNG-tests-1] INFO  - Selecting Product Amazon Site
+21:34:05.249 [TestNG-tests-3] INFO  - searchProduct Passed
+21:34:05.253 [TestNG-tests-3] INFO  - Selecting Product Amazon Site
+21:34:06.054 [TestNG-tests-1] INFO  - selectProduct Passed
+21:34:06.062 [TestNG-tests-1] INFO  - Checking Images of Product
+21:34:11.314 [TestNG-tests-3] INFO  - selectProduct Passed
+21:34:11.319 [TestNG-tests-3] INFO  - Checking Images of Product
+21:34:24.821 [TestNG-tests-1] INFO  - checkImagesOfProduct Passed
+21:34:24.825 [TestNG-tests-1] INFO  - Add product to Cart
+21:34:25.454 [TestNG-tests-3] INFO  - checkImagesOfProduct Passed
+21:34:25.459 [TestNG-tests-3] INFO  - Add product to Cart
+21:34:35.133 [TestNG-tests-1] INFO  - addToCart Passed
+21:34:35.138 [TestNG-tests-1] INFO  - CheckOut Added Product
+21:34:37.292 [TestNG-tests-3] INFO  - addToCart Passed
+21:34:37.295 [TestNG-tests-3] INFO  - CheckOut Added Product
+21:34:46.027 [TestNG-tests-1] ERROR - checkOutProduct Failed
+21:34:46.029 [TestNG-tests-1] INFO  - click operation on Customer Services
+21:34:48.990 [TestNG-tests-3] ERROR - checkOutProduct Failed
+21:34:49.006 [TestNG-tests-3] INFO  - click operation on Customer Services
+21:34:55.322 [TestNG-tests-1] INFO  - checkCustomerServices Passed
+21:34:55.332 [TestNG-tests-1] INFO  - Checking My Orders Page
+21:34:59.204 [TestNG-tests-3] INFO  - checkCustomerServices Passed
+21:34:59.213 [TestNG-tests-3] INFO  - Checking My Orders Page
+21:34:59.517 [TestNG-tests-1] INFO  - checkMyOrders Passed
+21:34:59.541 [TestNG-tests-1] INFO  - Changing Pincode
+21:35:00.484 [TestNG-tests-3] INFO  - checkMyOrders Passed
+21:35:00.489 [TestNG-tests-3] INFO  - Changing Pincode
+21:40:27.804 [TestNG-tests-3] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:40:27.862 [TestNG-tests-3] INFO  - Launching Amazon Site
+21:40:33.161 [TestNG-tests-2] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:40:33.175 [TestNG-tests-2] INFO  - Launching Amazon Site
+21:40:33.671 [TestNG-tests-3] INFO  - getAmazonSite Passed
+21:40:33.692 [TestNG-tests-3] INFO  - Searching product on Amazon Site
+21:40:39.630 [TestNG-tests-2] INFO  - getAmazonSite Passed
+21:40:39.637 [TestNG-tests-2] INFO  - Searching product on Amazon Site
+21:40:40.483 [TestNG-tests-2] INFO  - searchProduct Passed
+21:40:40.488 [TestNG-tests-2] INFO  - Selecting Product Amazon Site
+21:40:43.579 [TestNG-tests-3] INFO  - searchProduct Passed
+21:40:43.582 [TestNG-tests-3] INFO  - Selecting Product Amazon Site
+21:40:44.928 [TestNG-tests-3] INFO  - selectProduct Passed
+21:40:44.932 [TestNG-tests-3] INFO  - Checking Images of Product
+21:40:55.621 [TestNG-tests-2] ERROR - selectProduct Failed
+21:40:55.626 [TestNG-tests-2] INFO  - Checking Images of Product
+21:41:00.647 [TestNG-tests-2] INFO  - checkImagesOfProduct Passed
+21:41:00.653 [TestNG-tests-2] INFO  - Add product to Cart
+21:41:04.102 [TestNG-tests-3] INFO  - checkImagesOfProduct Passed
+21:41:04.105 [TestNG-tests-3] INFO  - Add product to Cart
+21:41:05.155 [TestNG-tests-2] INFO  - addToCart Passed
+21:41:05.160 [TestNG-tests-2] INFO  - CheckOut Added Product
+21:41:11.583 [TestNG-tests-3] INFO  - addToCart Passed
+21:41:11.590 [TestNG-tests-3] INFO  - CheckOut Added Product
+21:41:16.158 [TestNG-tests-2] ERROR - checkOutProduct Failed
+21:41:16.161 [TestNG-tests-2] INFO  - click operation on Customer Services
+21:41:19.054 [TestNG-tests-2] INFO  - checkCustomerServices Passed
+21:41:19.062 [TestNG-tests-2] INFO  - Checking My Orders Page
+21:41:21.725 [TestNG-tests-2] INFO  - checkMyOrders Passed
+21:41:21.729 [TestNG-tests-2] INFO  - Changing Pincode
+21:41:23.636 [TestNG-tests-3] ERROR - checkOutProduct Failed
+21:41:23.641 [TestNG-tests-3] INFO  - click operation on Customer Services
+21:41:32.914 [TestNG-tests-2] ERROR - changePinCode Failed
+21:41:34.105 [TestNG-tests-3] INFO  - checkCustomerServices Passed
+21:41:34.113 [TestNG-tests-3] INFO  - Checking My Orders Page
+21:41:36.922 [TestNG-tests-2] ERROR - checkLogin Failed
+21:41:37.006 [TestNG-tests-3] INFO  - checkMyOrders Passed
+21:41:37.011 [TestNG-tests-3] INFO  - Changing Pincode
+21:41:39.925 [TestNG-tests-2] ERROR - checkSignUp Failed
+21:41:40.206 [TestNG-tests-2] ERROR - anotherIntentionalFailure Failed
+21:41:44.694 [TestNG-tests-3] INFO  - changePinCode Passed
+21:41:48.345 [TestNG-tests-3] ERROR - checkLogin Failed
+21:41:49.989 [TestNG-tests-3] ERROR - checkSignUp Failed
+21:41:50.270 [TestNG-tests-3] ERROR - anotherIntentionalFailure Failed
+21:43:15.229 [TestNG-tests-1] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:43:15.307 [TestNG-tests-1] INFO  - Launching Amazon Site
+21:43:16.517 [TestNG-tests-3] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:43:16.527 [TestNG-tests-3] INFO  - Launching Amazon Site
+21:43:22.559 [TestNG-tests-2] INFO  - 
+------------New Logging Details Added Below--------------
+
+
+21:43:22.578 [TestNG-tests-2] INFO  - Launching Amazon Site
+21:43:26.762 [TestNG-tests-1] INFO  - getAmazonSite Passed
+21:43:26.788 [TestNG-tests-1] INFO  - Searching product on Amazon Site
+21:43:31.313 [TestNG-tests-3] INFO  - getAmazonSite Passed
+21:43:31.323 [TestNG-tests-3] INFO  - Searching product on Amazon Site
+21:43:34.551 [TestNG-tests-1] INFO  - searchProduct Passed
+21:43:34.556 [TestNG-tests-1] INFO  - Selecting Product Amazon Site
+21:43:35.936 [TestNG-tests-1] INFO  - selectProduct Passed
+21:43:35.946 [TestNG-tests-1] INFO  - Checking Images of Product
+21:43:39.622 [TestNG-tests-3] INFO  - searchProduct Passed
+21:43:39.628 [TestNG-tests-3] INFO  - Selecting Product Amazon Site
+21:43:44.228 [TestNG-tests-3] INFO  - selectProduct Passed
+21:43:44.235 [TestNG-tests-3] INFO  - Checking Images of Product
+21:43:54.913 [TestNG-tests-2] INFO  - getAmazonSite Passed
+21:43:54.934 [TestNG-tests-2] INFO  - Searching product on Amazon Site
+21:43:57.070 [TestNG-tests-2] INFO  - searchProduct Passed
+21:43:57.083 [TestNG-tests-2] INFO  - Selecting Product Amazon Site
+21:44:09.297 [TestNG-tests-2] ERROR - selectProduct Failed
+21:44:09.303 [TestNG-tests-2] INFO  - Checking Images of Product
+21:44:14.280 [TestNG-tests-2] INFO  - checkImagesOfProduct Passed
+21:44:14.284 [TestNG-tests-2] INFO  - Add product to Cart
+21:44:23.931 [TestNG-tests-1] ERROR - checkImagesOfProduct Failed
+21:44:23.935 [TestNG-tests-1] INFO  - Add product to Cart
+21:44:25.117 [TestNG-tests-3] INFO  - checkImagesOfProduct Passed
+21:44:25.121 [TestNG-tests-3] INFO  - Add product to Cart
+21:44:34.114 [TestNG-tests-1] INFO  - addToCart Passed
+21:44:34.117 [TestNG-tests-1] INFO  - CheckOut Added Product
+21:44:35.582 [TestNG-tests-3] INFO  - addToCart Passed
+21:44:35.585 [TestNG-tests-3] INFO  - CheckOut Added Product
+21:44:37.799 [TestNG-tests-1] INFO  - checkOutProduct Passed
+21:44:37.801 [TestNG-tests-1] INFO  - click operation on Customer Services
+21:44:42.763 [TestNG-tests-1] INFO  - checkCustomerServices Passed
+21:44:42.766 [TestNG-tests-1] INFO  - Checking My Orders Page
+21:44:44.337 [TestNG-tests-1] INFO  - checkMyOrders Passed
+21:44:44.340 [TestNG-tests-1] INFO  - Changing Pincode
+21:44:46.999 [TestNG-tests-3] ERROR - checkOutProduct Failed
+21:44:47.004 [TestNG-tests-3] INFO  - click operation on Customer Services
+21:44:49.446 [TestNG-tests-1] INFO  - changePinCode Passed
+21:44:54.042 [TestNG-tests-1] ERROR - checkLogin Failed
+21:44:54.901 [TestNG-tests-3] INFO  - checkCustomerServices Passed
+21:44:54.906 [TestNG-tests-3] INFO  - Checking My Orders Page
+21:44:56.292 [TestNG-tests-1] ERROR - checkSignUp Failed
+21:44:56.737 [TestNG-tests-1] ERROR - anotherIntentionalFailure Failed
+21:44:57.073 [TestNG-tests-3] INFO  - checkMyOrders Passed
+21:44:57.080 [TestNG-tests-3] INFO  - Changing Pincode
+21:44:57.826 [TestNG-tests-2] INFO  - addToCart Passed
+21:44:57.832 [TestNG-tests-2] INFO  - CheckOut Added Product
+21:45:00.621 [TestNG-tests-2] ERROR - checkOutProduct Failed
+21:45:00.628 [TestNG-tests-2] INFO  - click operation on Customer Services
+21:45:05.003 [TestNG-tests-3] INFO  - changePinCode Passed
+21:45:09.263 [TestNG-tests-3] ERROR - checkLogin Failed
+21:45:10.994 [TestNG-tests-2] INFO  - checkCustomerServices Passed
+21:45:10.998 [TestNG-tests-2] INFO  - Checking My Orders Page
+21:45:12.108 [TestNG-tests-3] ERROR - checkSignUp Failed
+21:45:12.715 [TestNG-tests-3] ERROR - anotherIntentionalFailure Failed
+21:45:13.562 [TestNG-tests-2] INFO  - checkMyOrders Passed
+21:45:13.567 [TestNG-tests-2] INFO  - Changing Pincode
+21:45:26.810 [TestNG-tests-2] ERROR - changePinCode Failed
+21:45:27.822 [TestNG-tests-2] ERROR - checkLogin Failed
+21:45:28.694 [TestNG-tests-2] ERROR - checkSignUp Failed
+21:45:28.816 [TestNG-tests-2] ERROR - anotherIntentionalFailure Failed
