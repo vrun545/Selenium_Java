@@ -1,6 +1,6 @@
-# Amazon Website Testing with Selenium Java Maven Project
+# Amazon Website Testing with Selenium with Java Project
 
-This project is a Selenium Java Maven project for testing the Amazon website. It follows the guidelines provided below:
+This project is a Selenium with Java project for testing the Amazon website. It follows the guidelines provided below:
 
 ## Guidelines
 
