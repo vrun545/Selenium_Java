@@ -35,10 +35,6 @@ This project is a Selenium with Java project for testing the Amazon website. It 
 5. Run the command `mvn clean test` to execute the test cases.
 6. After execution, the Extent report will be generated in the `test-output` directory.
 
-## Contributing
-
-Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
